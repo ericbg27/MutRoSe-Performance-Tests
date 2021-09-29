@@ -50,7 +50,7 @@ func MakeRoom(name string, patients string) Room {
 }
 
 func main() {
-	roomsNumber := [9]int{2, 3, 5, 10, 20, 50, 100, 200, 1000}
+	roomsNumber := [10]int{2, 3, 5, 10, 20, 50, 100, 200, 1000, 2000}
 	patientNumber := 2
 
 	sanitizationRoom := MakeRoom("SanitizationRoom", "")
