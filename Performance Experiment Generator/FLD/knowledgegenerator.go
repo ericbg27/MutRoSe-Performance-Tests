@@ -58,7 +58,7 @@ func MakePatient(name string) Patient {
 }
 
 func main() {
-	deliveriesNumber := [10]int{2, 3, 5, 10, 20, 50, 100, 200, 1000, 2000}
+	deliveriesNumber := [13]int{2, 3, 5, 10, 20, 50, 100, 200, 1000, 2000,3000,4000,5000}
 
 	kitchenLocation := MakeLocation("Kitchen", "")
 
